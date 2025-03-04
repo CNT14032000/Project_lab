@@ -27,27 +27,25 @@ Document the results in a report.
 
 * Install tcpdump and Wireshark.
 
-* Determine the IP address of the machine.
-
-* Initiate an audio call via Skype.
-
-* Capture traffic using tcpdump.
-
-* Analyze the captured data in Wireshark.
-
-* Identify key communication protocols (DNS, TCP, TLS, UDP).
+* Determine the IP address of the machine.</br>
+  ![Determine the IP address](images/1.PNG) </br>
+* Initiate an audio call via Skype. </br>
+* Capture traffic using tcpdump.</br>
+![Capture traffic using tcpdump](images/2.PNG) </br>
+* Analyze the captured data in Wireshark.</br>
+* Identify key communication protocols (DNS, TCP, TLS, UDP).</br>
 
 ## Key Observations
 
-* DNS Requests: Skype queries domain names before establishing a connection.
+* DNS Requests: Skype queries domain names before establishing a connection. </br>
+![DNS Requests](images/3.PNG) </br>
+* TCP Handshake: The three-way handshake process initializes the communication. </br>
+![TCP Handshake](images/4.PNG) </br>
+* TLS Encryption: Most data transfer occurs over TLSv1.2 for security. </br>
 
-* TCP Handshake: The three-way handshake process initializes the communication.
-
-* TLS Encryption: Most data transfer occurs over TLSv1.2 for security.
-
-* UDP Usage: The Skype call transmits audio/video data over UDP ports.
-
-* Comparison: The analysis results from tcpdump and Wireshark were similar.
-
+* UDP Usage: The Skype call transmits audio/video data over UDP ports. </br>
+![ UDP Usage](images/5.PNG) </br>
+* Comparison: The analysis results from tcpdump and Wireshark were similar. </br>
+![Comparison tcpdump and Wireshark](images/6.PNG) </br>
 ## Conclusion
 The lab provided hands-on experience in capturing and analyzing network traffic using tcpdump and Wireshark. The study helped understand how network packets are transmitted and secured in real-time applications like Skype.
